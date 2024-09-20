@@ -1,0 +1,541 @@
+*{
+  color: black;
+  font-size: 20px;  
+}
+
+
+.background1{
+    background-color: rgba(12, 12, 12, 1);
+    height: 1900px;
+    width:100%;
+    position: absolute;
+    
+}
+
+.heading{
+    font-size: 60px;
+    font-weight: 800;
+    color: yellow;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+/* sigup box */
+.background2{
+
+    background-color: rgba(97, 76, 76, 0.356);
+    height: 900px;
+    width: 800px;
+    margin-left: 300px;
+    margin-top: 30px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+/* signup div */
+.signup{
+    height: 100px;
+   
+}
+
+/* signup text */
+.inner{
+font-size: 65px;
+font-weight: 800;
+color: aliceblue;
+text-align: center;
+margin-top: 20px;    
+}
+
+/* labels text size */
+#p1{
+    font-size: 45px;
+    color: aliceblue;
+}
+
+
+/* text box 1 */
+.text_box1{
+    height: 40px;
+    width: 590px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+
+.email{
+    margin-left: 90px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 40px;
+    width: 590px;
+   
+    border-radius: 7px;
+   
+}
+
+.password{
+    margin-left: 90px;
+}
+
+/* text box 3 */
+.text_box3{
+    height: 40px;
+    width: 590px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+
+.crypto{
+    margin-left: 90px;
+}
+
+/* button */
+#b1{
+    background-color: green;
+    height: 50px;
+    
+     width: 120px;
+    margin-left: 90px;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+/* for 350px*/
+
+@media  (min-width:350px) {
+
+    /* button */
+#b1{
+    width: 90px;
+    height: 35px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+}
+
+    /* inner background */
+.background2{
+
+    background-color:black;
+    height: 800px;
+    width: 300px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* text box 3 */
+.text_box3{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.crypto{
+    margin-left: 20px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.password{
+    margin-left: 20px;
+}
+
+/* text box 1 */
+.text_box1{
+    height: 30px;
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.email{
+    margin-left: 20px;
+}
+
+/* background1 */
+.background1{
+    background-color: rgba(12, 12, 12, 1);
+    height: 1500px;
+    width:100%;
+    position: absolute;
+    
+}
+
+#p1{
+    font-size: 25px;
+    color: aliceblue;
+}
+
+
+}
+ 
+
+/* for 761px */
+
+@media  (min-width:761px) {
+
+    /* button */
+#b1{
+    width: 130px;
+    height: 55px;
+    
+    text-decoration: none;
+    margin-left: 30px;
+}   
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: antiquewhite;
+}
+
+    /* inner background */
+.background2{
+
+    background-color:black;
+    height: 800px;
+    width: 570px;
+    margin-left: 100px;
+    margin-top: 30px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* text box 3 */
+.text_box3{
+    height: 40px;
+    width: 480px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.crypto{
+    margin-left: 20px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 40px;
+    width: 480px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.password{
+    margin-left: 20px;
+}
+
+/* text box 1 */
+.text_box1{
+    height: 40px;
+    width: 480px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.email{
+    margin-left: 20px;
+}
+
+/* background1 */
+.background1{
+    background-color: rgba(12, 12, 12, 1);
+    height: 1720px;
+    width:100%;
+    position: absolute;}
+
+#p1{
+        font-size: 35px;
+        color: aliceblue;
+    }
+
+
+}     
+   
+ 
+
+
+
+/* for  800px*/
+@media  (min-width:800px) 
+{
+
+    /* button */
+#b1{
+    width: 190px;
+    height: 55px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}   
+a{
+    text-decoration: none;
+}
+
+    /* inner background */
+.background2{
+
+    background-color:white;
+    height: 900px;
+    width: 490px;
+    margin-left: 50px;
+    margin-top: 30px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* text box 3 */
+.text_box3{
+    height: 60px;
+    width: 780px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.crypto{
+    margin-left: 20px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 60px;
+    width: 780px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.password{
+    margin-left: 20px;
+}
+
+/* text box 1 */
+.text_box1{
+    height: 60px;
+    width: 780px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.email{
+    margin-left: 20px;
+}
+
+/* background1 */
+.background1{
+    background-color: red;
+    height: 1300px;
+    width:100%;
+    position: absolute;
+    
+}
+#p1{
+    font-size: 35px;
+    color: aliceblue;
+}
+
+}
+
+    
+    
+
+
+@media  (min-width:910px) {
+
+    /* button */
+#b1{
+    width: 190px;
+    height: 55px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}   
+a{
+    text-decoration: none;
+}
+
+    /* inner background */
+.background2{
+
+    background-color:black;
+    height: 900px;
+    width: 760px;
+    margin-left: 90px;
+    margin-top: 30px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* text box 3 */
+.text_box3{
+    height: 40px;
+    width: 580px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.crypto{
+    margin-left: 20px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 40px;
+    width: 580px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.password{
+    margin-left: 20px;
+}
+
+/* text box 1 */
+.text_box1{
+    height: 40px;
+    width: 580px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+.email{
+    margin-left: 20px;
+}
+
+/* background1 */
+.background1{
+    background-color: rgba(12, 12, 12, 1);
+    height: 2000px;
+    width:100%;
+    position: absolute;
+    
+}
+#p1{
+    font-size: 40px;
+    color: aliceblue;
+}
+}   
+
+@media  (min-width:1000px) {
+
+    /* button */
+#b1{
+    width: 190px;
+    height: 55px;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 30px;
+}   
+a{
+    text-decoration: none;
+}
+
+    /* inner background */
+.background2{
+
+    background-color:black;
+    height: 1000px;
+    width: 960px;
+    margin-left: 490px;
+    margin-top: 80px;
+    border:5px solid white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+/* text box 3 */
+.text_box3{
+    height: 60px;
+    width: 750px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.crypto{
+    margin-left: 20px;
+}
+
+/* text box 2 */
+.text_box2{
+    height: 60px;
+    width: 750px;
+    margin-top: 10px;
+    border-radius: 7px;
+   
+}
+.password{
+    margin-left: 20px;
+}
+
+/* text box 1 */
+.text_box1{
+    height: 60px;
+    width: 750px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.email{
+    margin-left: 20px;
+}
+
+
+/* background1 */
+.background1{
+    background-color: rgba(12, 12, 12, 1);
+    height: 1500px;
+    width:100%;
+    position: absolute;
+    
+}
+#p1{
+    font-size: 45px;
+    color: aliceblue;
+}
+}   
+
+
+
+
+
+
+
+
+
+
